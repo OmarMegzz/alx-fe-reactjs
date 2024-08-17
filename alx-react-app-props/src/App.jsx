@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import "./App.css";
 import ProfilePage from "./components/ProfilePage";
-import { userContext } from "./components/contexte/UserContext";
+import { userContext } from "./components/UserContext";
 
 function App() {
   const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
