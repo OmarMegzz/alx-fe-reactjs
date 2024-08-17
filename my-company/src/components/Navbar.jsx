@@ -7,17 +7,17 @@ function Navbar() {
       style={{
         background: "blue",
         textAlign: "center",
-        color: "black",
+        padding: "10px",
         margin: "20px 0",
       }}
     >
-      <Link to="/" style={{ margin: "0 15px" }}>
+      <Link to="/" style={{ background: "blue", margin: "0 15px" }}>
         Home
       </Link>
-      <Link to="/about" style={{ margin: "0 15px" }}>
+      <Link to="/about" style={{ background: "gray", margin: "0 15px" }}>
         About
       </Link>
-      <Link to="/services" style={{ margin: "0 15px" }}>
+      <Link to="/services" style={{ background: "red", margin: "0 15px" }}>
         Services
       </Link>
       <Link to="/contact" style={{ margin: "0 15px" }}>
