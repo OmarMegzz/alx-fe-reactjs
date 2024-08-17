@@ -8,6 +8,8 @@ function Navbar() {
         background: "blue",
         textAlign: "center",
         padding: "10px",
+        display: "flex",
+        justifyContent: "center",
         margin: "20px 0",
       }}
     >
