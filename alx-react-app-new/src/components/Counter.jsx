@@ -10,21 +10,21 @@ function Counter() {
           setCount(count + 1);
         }}
       >
-        increment
+        Increment
       </button>
       <button
         onClick={() => {
           setCount(count - 1);
         }}
       >
-        decrement
+        Decrement
       </button>
       <button
         onClick={() => {
           setCount(0);
         }}
       >
-        reset
+        Reset
       </button>
     </>
   );
