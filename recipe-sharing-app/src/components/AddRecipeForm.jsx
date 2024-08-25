@@ -2,6 +2,8 @@ import { useState } from "react";
 import useRecipeStore from "./recipeStore";
 import RecipeList from "./RecipeList";
 import SearchBar from "./SearchBar";
+import FavoritesList from "./FavoritesList";
+import RecommendationsList from "./RecommendationsList";
 
 export const AddRecipeForm = () => {
   const addRecipe = useRecipeStore((state) => state.addRecipe);
@@ -18,6 +20,8 @@ export const AddRecipeForm = () => {
   return (
     <>
       <SearchBar />
+      <FavoritesList />
+      <RecommendationsList />
       <form onSubmit={handleSubmit}>
         <input
           type="text"
