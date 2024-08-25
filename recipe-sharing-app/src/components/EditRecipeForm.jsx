@@ -16,8 +16,8 @@ const EditRecipeForm = ({ recipe }) => {
     }
   }, [recipe]); // Update state when recipe prop changes
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
     if (recipe?.id) {
       updateRecipe(recipe.id, { title, description });
       console.log("Recipe updated:", { title, description }); // Debugging output
