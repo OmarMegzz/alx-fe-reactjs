@@ -11,6 +11,7 @@ const useRecipeStore = create((set) => ({
         recipe.id === id ? { ...recipe, ...updatedRecipe } : recipe
       ),
     })),
+  deleteRecipe,
 }));
 
 export default useRecipeStore;
