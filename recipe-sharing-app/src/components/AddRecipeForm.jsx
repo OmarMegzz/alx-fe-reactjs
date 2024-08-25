@@ -1,6 +1,7 @@
 import { useState } from "react";
 import useRecipeStore from "./recipeStore";
 import RecipeList from "./RecipeList";
+import SearchBar from "./SearchBar";
 
 export const AddRecipeForm = () => {
   const addRecipe = useRecipeStore((state) => state.addRecipe);
@@ -16,6 +17,7 @@ export const AddRecipeForm = () => {
 
   return (
     <>
+      <SearchBar />
       <form onSubmit={handleSubmit}>
         <input
           type="text"
