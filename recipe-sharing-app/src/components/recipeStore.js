@@ -11,7 +11,10 @@ const useRecipeStore = create((set) => ({
         recipe.id === id ? { ...recipe, ...updatedRecipe } : recipe
       ),
     })),
-  deleteRecipe,
+  deleteRecipe: (id) =>
+    set((state) => ({
+      recipes: state.recipes.filter((recipe) => recipe.id !== id),
+    })),
 }));
 
 export default useRecipeStore;

@@ -3,7 +3,7 @@ import useRecipeStore from "./recipeStore";
 
 const RecipeList = () => {
   const recipes = useRecipeStore((state) => state.recipes);
-
+  console.log("Recipes:", recipes);
   return (
     <>
       {recipes.map((recipe) => (

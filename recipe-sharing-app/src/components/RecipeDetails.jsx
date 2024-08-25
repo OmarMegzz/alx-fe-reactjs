@@ -1,16 +1,16 @@
 import { useParams } from "react-router-dom";
 import useRecipeStore from "./recipeStore";
 import EditRecipeForm from "./EditRecipeForm";
-import { useEffect } from "react";
+import DeleteRecipeButton from "./DeleteRecipeButton";
 
 const RecipeDetails = () => {
   const { id } = useParams();
   const recipe = useRecipeStore((state) =>
     state.recipes.find((recipe) => recipe.id.toString() === id)
   );
-  useEffect(() => {
-    console.log("Recipe details updated:", recipe); // Debugging output
-  }, [recipe]);
+  if (!recipe) {
+    return <div>Recipe not found</div>;
+  }
 
   return (
     <div>
@@ -19,6 +19,7 @@ const RecipeDetails = () => {
       <p>{recipe.description}</p>
 
       <EditRecipeForm recipe={recipe} />
+      <DeleteRecipeButton recipeId={recipe.id} />
     </div>
   );
 };

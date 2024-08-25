@@ -25,7 +25,6 @@ const EditRecipeForm = ({ recipe }) => {
       console.error("Recipe ID is undefined");
     }
   };
-  console.log(recipe.id);
 
   return (
     <>
