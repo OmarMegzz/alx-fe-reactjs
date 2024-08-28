@@ -8,6 +8,8 @@ const RegistrationForm = () => {
     password: "",
   });
 
+  const { username, email, password } = formData;
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevstate) => ({ ...prevstate, [name]: value }));
@@ -24,19 +26,14 @@ const RegistrationForm = () => {
         <input
           type="text"
           name="username"
-          value={formData.username}
+          value={username}
           onChange={handleChange}
         />
+        <input type="text" name="email" value={email} onChange={handleChange} />
         <input
-          type="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-        <input
-          type="password"
+          type="text"
           name="password"
-          value={formData.password}
+          value={password}
           onChange={handleChange}
         />
         <button type="submit">submit</button>
