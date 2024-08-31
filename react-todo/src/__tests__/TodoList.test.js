@@ -2,6 +2,7 @@ import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import TodoList from "../components/TodoList";
+import { waitFor } from "@testing-library/react";
 
 describe("TodoList Component", () => {
   test("renders TodoList component with initial todos", () => {
@@ -40,4 +41,11 @@ describe("TodoList Component", () => {
     // After toggling back, the todo should revert to no line-through
     expect(todoItem).toHaveStyle("text-decoration: none");
   });
+});
+
+test("renders TodoList component", async () => {
+  render(<TodoList />);
+  await waitFor(() =>
+    expect(screen.getByText(/Learn React/i)).toBeInTheDocument()
+  );
 });
