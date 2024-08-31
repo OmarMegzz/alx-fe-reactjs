@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Profile from "./profile";
+import Login from "./login";
 
 function BlogList() {
   const blogPosts = [
