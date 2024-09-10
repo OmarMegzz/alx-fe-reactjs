@@ -48,9 +48,9 @@ function RecipeDetail() {
           <p className="text-gray-700 mb-4">{recipe.summary}</p>
           <h2 className="text-xl font-semibold mb-2">Ingredients</h2>
           <ul className="list-disc list-inside mb-4">
-            {recipe.instructions.map((ingredient, index) => (
+            {recipe.instructions.map((ingredients, index) => (
               <li key={index} className="text-gray-600">
-                {ingredient}
+                {ingredients}
               </li>
             ))}
           </ul>
