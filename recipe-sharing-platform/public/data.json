@@ -3,30 +3,137 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://img.freepik.com/free-photo/pasta-plate-chopping-board-with-fork_23-2148357206.jpg?w=900&t=st=1725981148~exp=1725981748~hmac=a184159382dc8d20c6db1aa6e74b295413ea2643c7308e328c7a11793ef47d4e",
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Parmesan cheese",
+      "Bacon",
+      "Black pepper"
+    ],
+    "steps": [
+      "Cook the spaghetti according to package instructions.",
+      "Fry the bacon until crispy.",
+      "Beat the eggs and mix with Parmesan cheese.",
+      "Combine the hot spaghetti with the bacon, then mix in the egg mixture.",
+      "Season with black pepper and serve."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://img.freepik.com/free-photo/plate-food-with-bowl-beef-curry_1340-23175.jpg?t=st=1725981181~exp=1725984781~hmac=b9b68f7cf6c23e810648c9fc0108d9f5a4f4950d221b9a65f6ab50b10566005f&w=1060",
+    "ingredients": [
+      "Chicken",
+      "Yogurt",
+      "Tomato sauce",
+      "Cream",
+      "Spices (cumin, coriander, turmeric, etc.)"
+    ],
+    "steps": [
+      "Marinate chicken in yogurt and spices.",
+      "Grill the chicken until cooked through.",
+      "Prepare the gravy with tomato sauce, cream, and additional spices.",
+      "Combine the grilled chicken with the gravy and simmer.",
+      "Serve with rice or naan."
+    ]
   },
   {
     "id": 3,
     "title": "Beef Stroganoff",
     "summary": "A Russian dish of sautéed pieces of beef served in a sauce with smetana (sour cream).",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://img.freepik.com/premium-photo/beef-stroganoff-with-crispy-onion-topping-yummy-delicious-beef-stroganoff-food-image-photography_1020697-691952.jpg?w=1060",
+    "ingredients": [
+      "Beef",
+      "Onions",
+      "Mushrooms",
+      "Sour cream",
+      "Beef broth",
+      "Flour"
+    ],
+    "steps": [
+      "Sauté onions and mushrooms until tender.",
+      "Add beef and cook until browned.",
+      "Stir in flour and cook for a minute.",
+      "Add beef broth and bring to a simmer.",
+      "Mix in sour cream and cook until thickened.",
+      "Serve over noodles or rice."
+    ]
   },
   {
     "id": 4,
     "title": "Caesar Salad",
     "summary": "A green salad of romaine lettuce and croutons dressed with lemon juice, olive oil, egg, Worcestershire sauce, garlic, and Parmesan cheese.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://img.freepik.com/free-photo/top-view-caesar-salad-oval-plate-green-white-checkered-tablecloth-notebook-knife-fork-dark-red-background_140725-124910.jpg?t=st=1725981244~exp=1725984844~hmac=bb09c9667c1e93a56a9e174098b99d9e1262c77963e1507c0e4bdc1fead278ba&w=1060",
+    "ingredients": [
+      "Romaine lettuce",
+      "Croutons",
+      "Lemon juice",
+      "Olive oil",
+      "Egg",
+      "Worcestershire sauce",
+      "Garlic",
+      "Parmesan cheese"
+    ],
+    "steps": [
+      "Tear the romaine lettuce into bite-sized pieces.",
+      "Prepare the Caesar dressing with lemon juice, olive oil, egg, Worcestershire sauce, garlic, and Parmesan cheese.",
+      "Toss the lettuce with the dressing.",
+      "Top with croutons and additional Parmesan cheese."
+    ]
   },
   {
     "id": 5,
     "title": "Margarita Pizza",
     "summary": "A simple pizza made with tomatoes, mozzarella cheese, fresh basil, salt, and olive oil.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://img.freepik.com/premium-photo/classic-margarita-pizza-with-mozzarella-tomatoes-basil-italian-pizza-composition-with-ingredients-white-table-top-view-food-flat-lay_207126-2179.jpg?w=1060",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Mozzarella cheese",
+      "Fresh basil",
+      "Salt",
+      "Olive oil"
+    ],
+    "steps": [
+      "Preheat the oven to 475°F (245°C).",
+      "Spread tomato sauce over the pizza dough.",
+      "Top with mozzarella cheese.",
+      "Bake until the crust is golden and the cheese is melted.",
+      "Top with fresh basil and drizzle with olive oil."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Shrimp Scampi",
+    "summary": "A classic Italian dish featuring shrimp cooked in a garlic butter and white wine sauce, served over pasta.",
+    "image": "https://img.freepik.com/free-photo/tasty-appetizing-fried-shrimps-pan-dark-stone-background-top-view_1220-6633.jpg?t=st=1725981566~exp=1725985166~hmac=4a27ab39d0cc6b2abc501b738bd7fe581b080b5dd97b8060847ad5af62293cb0&w=1060",
+    "ingredients": [
+      "1 pound large shrimp, peeled and deveined",
+      "8 ounces linguine or spaghetti",
+      "3 tablespoons unsalted butter",
+      "3 tablespoons olive oil",
+      "4 cloves garlic, minced",
+      "1/2 cup dry white wine",
+      "1/4 cup fresh lemon juice",
+      "1/4 teaspoon red pepper flakes",
+      "Salt to taste",
+      "Black pepper to taste",
+      "Chopped fresh parsley for garnish",
+      "Grated Parmesan cheese (optional)"
+    ],
+    "steps": [
+      "Cook the pasta according to package instructions, then drain and set aside.",
+      "In a large skillet, heat olive oil and 2 tablespoons of butter over medium heat.",
+      "Add minced garlic and cook for about 1 minute until fragrant.",
+      "Add the shrimp to the skillet, cooking for 2-3 minutes on each side until they are pink and opaque. Remove shrimp from the skillet and set aside.",
+      "In the same skillet, pour in white wine, lemon juice, and red pepper flakes. Bring to a simmer and cook for 2-3 minutes.",
+      "Add the remaining 1 tablespoon of butter to the skillet, stirring until melted and combined with the sauce.",
+      "Return the cooked shrimp to the skillet and toss to coat in the sauce.",
+      "Add the cooked pasta to the skillet, tossing everything together until well combined and heated through.",
+      "Season with salt and black pepper to taste.",
+      "Garnish with chopped fresh parsley and optional grated Parmesan cheese before serving."
+    ]
   }
 ]

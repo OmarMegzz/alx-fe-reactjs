@@ -3,30 +3,105 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Parmesan cheese",
+      "Bacon",
+      "Black pepper"
+    ],
+    "steps": [
+      "Cook the spaghetti according to package instructions.",
+      "Fry the bacon until crispy.",
+      "Beat the eggs and mix with Parmesan cheese.",
+      "Combine the hot spaghetti with the bacon, then mix in the egg mixture.",
+      "Season with black pepper and serve."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "Chicken",
+      "Yogurt",
+      "Tomato sauce",
+      "Cream",
+      "Spices (cumin, coriander, turmeric, etc.)"
+    ],
+    "steps": [
+      "Marinate chicken in yogurt and spices.",
+      "Grill the chicken until cooked through.",
+      "Prepare the gravy with tomato sauce, cream, and additional spices.",
+      "Combine the grilled chicken with the gravy and simmer.",
+      "Serve with rice or naan."
+    ]
   },
   {
     "id": 3,
     "title": "Beef Stroganoff",
     "summary": "A Russian dish of sautéed pieces of beef served in a sauce with smetana (sour cream).",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "Beef",
+      "Onions",
+      "Mushrooms",
+      "Sour cream",
+      "Beef broth",
+      "Flour"
+    ],
+    "steps": [
+      "Sauté onions and mushrooms until tender.",
+      "Add beef and cook until browned.",
+      "Stir in flour and cook for a minute.",
+      "Add beef broth and bring to a simmer.",
+      "Mix in sour cream and cook until thickened.",
+      "Serve over noodles or rice."
+    ]
   },
   {
     "id": 4,
     "title": "Caesar Salad",
     "summary": "A green salad of romaine lettuce and croutons dressed with lemon juice, olive oil, egg, Worcestershire sauce, garlic, and Parmesan cheese.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "Romaine lettuce",
+      "Croutons",
+      "Lemon juice",
+      "Olive oil",
+      "Egg",
+      "Worcestershire sauce",
+      "Garlic",
+      "Parmesan cheese"
+    ],
+    "steps": [
+      "Tear the romaine lettuce into bite-sized pieces.",
+      "Prepare the Caesar dressing with lemon juice, olive oil, egg, Worcestershire sauce, garlic, and Parmesan cheese.",
+      "Toss the lettuce with the dressing.",
+      "Top with croutons and additional Parmesan cheese."
+    ]
   },
   {
     "id": 5,
     "title": "Margarita Pizza",
     "summary": "A simple pizza made with tomatoes, mozzarella cheese, fresh basil, salt, and olive oil.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Mozzarella cheese",
+      "Fresh basil",
+      "Salt",
+      "Olive oil"
+    ],
+    "steps": [
+      "Preheat the oven to 475°F (245°C).",
+      "Spread tomato sauce over the pizza dough.",
+      "Top with mozzarella cheese.",
+      "Bake until the crust is golden and the cheese is melted.",
+      "Top with fresh basil and drizzle with olive oil."
+    ]
   }
 ]
