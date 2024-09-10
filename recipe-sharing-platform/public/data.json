@@ -4,7 +4,7 @@
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
     "image": "https://img.freepik.com/free-photo/pasta-plate-chopping-board-with-fork_23-2148357206.jpg?w=900&t=st=1725981148~exp=1725981748~hmac=a184159382dc8d20c6db1aa6e74b295413ea2643c7308e328c7a11793ef47d4e",
-    "ingredients": [
+    "instructions": [
       "Spaghetti",
       "Eggs",
       "Parmesan cheese",
@@ -24,7 +24,7 @@
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
     "image": "https://img.freepik.com/free-photo/plate-food-with-bowl-beef-curry_1340-23175.jpg?t=st=1725981181~exp=1725984781~hmac=b9b68f7cf6c23e810648c9fc0108d9f5a4f4950d221b9a65f6ab50b10566005f&w=1060",
-    "ingredients": [
+    "instructions": [
       "Chicken",
       "Yogurt",
       "Tomato sauce",
@@ -44,7 +44,7 @@
     "title": "Beef Stroganoff",
     "summary": "A Russian dish of sautéed pieces of beef served in a sauce with smetana (sour cream).",
     "image": "https://img.freepik.com/premium-photo/beef-stroganoff-with-crispy-onion-topping-yummy-delicious-beef-stroganoff-food-image-photography_1020697-691952.jpg?w=1060",
-    "ingredients": [
+    "instructions": [
       "Beef",
       "Onions",
       "Mushrooms",
@@ -66,7 +66,7 @@
     "title": "Caesar Salad",
     "summary": "A green salad of romaine lettuce and croutons dressed with lemon juice, olive oil, egg, Worcestershire sauce, garlic, and Parmesan cheese.",
     "image": "https://img.freepik.com/free-photo/top-view-caesar-salad-oval-plate-green-white-checkered-tablecloth-notebook-knife-fork-dark-red-background_140725-124910.jpg?t=st=1725981244~exp=1725984844~hmac=bb09c9667c1e93a56a9e174098b99d9e1262c77963e1507c0e4bdc1fead278ba&w=1060",
-    "ingredients": [
+    "instructions": [
       "Romaine lettuce",
       "Croutons",
       "Lemon juice",
@@ -88,7 +88,7 @@
     "title": "Margarita Pizza",
     "summary": "A simple pizza made with tomatoes, mozzarella cheese, fresh basil, salt, and olive oil.",
     "image": "https://img.freepik.com/premium-photo/classic-margarita-pizza-with-mozzarella-tomatoes-basil-italian-pizza-composition-with-ingredients-white-table-top-view-food-flat-lay_207126-2179.jpg?w=1060",
-    "ingredients": [
+    "instructions": [
       "Pizza dough",
       "Tomato sauce",
       "Mozzarella cheese",
@@ -109,7 +109,7 @@
     "title": "Shrimp Scampi",
     "summary": "A classic Italian dish featuring shrimp cooked in a garlic butter and white wine sauce, served over pasta.",
     "image": "https://img.freepik.com/free-photo/tasty-appetizing-fried-shrimps-pan-dark-stone-background-top-view_1220-6633.jpg?t=st=1725981566~exp=1725985166~hmac=4a27ab39d0cc6b2abc501b738bd7fe581b080b5dd97b8060847ad5af62293cb0&w=1060",
-    "ingredients": [
+    "instructions": [
       "1 pound large shrimp, peeled and deveined",
       "8 ounces linguine or spaghetti",
       "3 tablespoons unsalted butter",
