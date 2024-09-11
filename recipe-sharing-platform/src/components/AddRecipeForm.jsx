@@ -6,9 +6,42 @@ function AddRecipeForm({ onRecipeAdd }) {
   const [ingredients, setIngredients] = useState("");
   const [preparationSteps, setPreparationSteps] = useState("");
 
+  const [errors, setErrors] = useState({
+    title: "",
+    ingredients: "",
+    steps: "",
+  });
+
+  const validateForm = () => {
+    const newErrors = { title: "", ingredients: "", steps: "" };
+    let isValid = true;
+
+    if (!recipeTitle) {
+      newErrors.title = "Recipe title is required.";
+      isValid = false;
+    }
+    if (!ingredients.trim()) {
+      newErrors.ingredients = "Ingredients are required.";
+      isValid = false;
+    } else if (
+      ingredients.split("\n").filter((ingredient) => ingredient.trim()).length <
+      2
+    ) {
+      newErrors.ingredients = "At least two ingredients are required.";
+      isValid = false;
+    }
+    if (!preparationSteps.trim()) {
+      newErrors.steps = "Preparation steps are required.";
+      isValid = false;
+    }
+
+    setErrors(newErrors);
+    return isValid;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (recipeTitle && ingredients && preparationSteps !== "") {
+    if (validateForm()) {
       const recipeData = {
         id: Date.now(),
         title: recipeTitle,
@@ -21,13 +54,13 @@ function AddRecipeForm({ onRecipeAdd }) {
           .map((step) => step.trim())
           .filter(Boolean),
       };
-      console.log("🚀 ~ hadnleSubmit ~ recipeData:", recipeData);
 
       onRecipeAdd(recipeData);
 
       setIngredients("");
       setPreparationSteps("");
       setRecipeTitle("");
+      setErrors({ title: "", ingredients: "", steps: "" });
     }
   };
 
@@ -47,6 +80,9 @@ function AddRecipeForm({ onRecipeAdd }) {
             value={recipeTitle}
             onChange={(e) => setRecipeTitle(e.target.value)}
           />
+          {errors.title && (
+            <p className="text-red-500 text-sm">{errors.title}</p>
+          )}
         </div>
         <div className="mb-4">
           <label htmlFor="label">ingredients</label>
@@ -58,6 +94,9 @@ function AddRecipeForm({ onRecipeAdd }) {
             onChange={(e) => setIngredients(e.target.value)}
             placeholder="Enter Your Ingredients Here.."
           ></textarea>
+          {errors.ingredients && (
+            <p className="text-red-500 text-sm">{errors.ingredients}</p>
+          )}
         </div>
         <div className="addSteps">
           <label htmlFor="label">steps</label>
@@ -69,6 +108,9 @@ function AddRecipeForm({ onRecipeAdd }) {
             onChange={(e) => setPreparationSteps(e.target.value)}
             placeholder="Enter Your Steps Here.."
           ></textarea>
+          {errors.steps && (
+            <p className="text-red-500 text-sm">{errors.steps}</p>
+          )}
         </div>
         <button
           type="submit"
