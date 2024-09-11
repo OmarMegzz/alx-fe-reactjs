@@ -6,7 +6,7 @@ function AddRecipeForm({ onRecipeAdd }) {
   const [ingredients, setIngredients] = useState("");
   const [preparationSteps, setPreparationSteps] = useState("");
 
-  const hadnleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     if (recipeTitle && ingredients && preparationSteps !== "") {
       const recipeData = {
@@ -34,7 +34,7 @@ function AddRecipeForm({ onRecipeAdd }) {
   return (
     <>
       <form
-        onClick={hadnleSubmit}
+        onSubmit={handleSubmit}
         className="max-w-md mt-8 mx-auto p-4 bg-white rounded shadow-md"
       >
         <div className="mb-4">
