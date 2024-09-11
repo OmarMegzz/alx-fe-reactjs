@@ -3,6 +3,7 @@ import "./App.css";
 import HomePage from "./components/HomePage";
 import RecipeDetail from "./components/RecipeDetail";
 import { useEffect, useState } from "react";
+import AddRecipeForm from "./components/AddRecipeForm";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
@@ -27,6 +28,7 @@ function App() {
             path="/recipe/:id"
             element={<RecipeDetail recipes={recipes} />}
           />
+          <Route path="/addRecipeForm" element={<AddRecipeForm />} />
         </Routes>
       </Router>
     </>

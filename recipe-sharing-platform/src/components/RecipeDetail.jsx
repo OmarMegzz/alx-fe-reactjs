@@ -4,11 +4,11 @@ import { useParams, useNavigate } from "react-router-dom";
 function RecipeDetail() {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
-  const { id } = useParams(); // Get the recipe ID from the URL
-  const navigate = useNavigate(); // Initialize useNavigate hook
+  const { id } = useParams();
+  const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/data.json") // Ensure the path to your JSON file is correct
+    fetch("/data.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to load data");
@@ -29,7 +29,7 @@ function RecipeDetail() {
     return <div>Loading...</div>;
   }
 
-  const recipe = recipes.find((r) => r.id === parseInt(id, 10));
+  const recipe = recipes.find((r) => r.id === parseInt(id));
 
   if (!recipe) {
     return <h2>Recipe Not Found</h2>;
