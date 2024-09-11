@@ -68,7 +68,7 @@ function AddRecipeForm({ onRecipeAdd }) {
     <>
       <form
         onSubmit={handleSubmit}
-        className="max-w-md mt-8 mx-auto p-4 bg-white rounded shadow-md"
+        className="font-bold max-w-md mt-8 mx-auto p-4 bg-white rounded shadow-md"
       >
         <div className="mb-4">
           <label htmlFor="title">Recipe title :</label>
