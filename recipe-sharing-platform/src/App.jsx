@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage";
 import RecipeDetail from "./components/RecipeDetail";
 import { useEffect, useState } from "react";
 import AddRecipeForm from "./components/AddRecipeForm";
+import Koko from "./components/koko";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
@@ -29,6 +30,7 @@ function App() {
             element={<RecipeDetail recipes={recipes} />}
           />
           <Route path="/addRecipeForm" element={<AddRecipeForm />} />
+          <Route path="/koko" element={<Koko recipe={{ title: "lolo" }} />} />
         </Routes>
       </Router>
     </>

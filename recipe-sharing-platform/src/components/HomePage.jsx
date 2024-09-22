@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import RecipeDetail from "./RecipeDetail";
 import AddRecipeForm from "./AddRecipeForm";
+import Koko from "./koko";
 
 function HomePage({ recipes: initialRecipes }) {
   const [recipes, setRecipes] = useState(initialRecipes || []);
@@ -46,6 +47,7 @@ function HomePage({ recipes: initialRecipes }) {
           ))}
         </ul>
         <AddRecipeForm onRecipeAdd={handleRecipeAdd} />
+        <Koko />
       </div>
     </>
   );

@@ -1,16 +1,13 @@
+// src/TodoList.js
 import React, { useState } from "react";
 
 const TodoList = () => {
-  // Initial state with demo todos
   const [todos, setTodos] = useState([
     { id: 1, text: "Learn React", completed: false },
     { id: 2, text: "Learn Jest", completed: false },
   ]);
-
-  // State for new todo input
   const [newTodo, setNewTodo] = useState("");
 
-  // Handle adding a new todo
   const handleAddTodo = (e) => {
     e.preventDefault();
     if (newTodo.trim()) {
@@ -19,7 +16,6 @@ const TodoList = () => {
     }
   };
 
-  // Handle toggling a todo's completion status
   const handleToggleTodo = (id) => {
     setTodos(
       todos.map((todo) =>
@@ -28,7 +24,6 @@ const TodoList = () => {
     );
   };
 
-  // Handle deleting a todo
   const handleDeleteTodo = (id) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
