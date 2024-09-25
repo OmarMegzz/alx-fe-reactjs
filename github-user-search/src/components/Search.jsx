@@ -12,6 +12,7 @@ const Search = () => {
   const handleSearchInputChange = (e) => setSearchInput(e.target.value);
   const handleLocationInputChange = (e) => setLocationInput(e.target.value);
   const handleMinReposInputChange = (e) => setMinReposInput(e.target.value);
+  console.log(userData);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -120,6 +121,10 @@ const Search = () => {
       {error && <p className="mt-4 text-red-500">{error}</p>}
     </div>
   );
+  console.log("🚀 ~ Search ~ userData:", userData);
+  console.log("🚀 ~ Search ~ userData:", userData);
+  console.log("🚀 ~ Search ~ userData:", userData);
+  console.log("🚀 ~ Search ~ userData:", userData);
 };
 
 export default Search;
